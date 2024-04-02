@@ -12,11 +12,16 @@ const Home = () => {
         <div className="flexColStart home-left">
           <div className="home-title">
             <div className="orange-circle" />
-            <h1 className="home-title">
+            <motion.h1 initial={{y:"2rem",opacity:1}}
+            animate={{y:0,opacity:1}}
+            transition={{
+              duration:2,
+              type:"spring"
+            }}>
               Discover <br />
               Most Suitable
               <br /> Property
-            </h1>
+            </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhome-des">
             <span>Find a variety of properties that suit you very easilty</span>
@@ -55,9 +60,17 @@ const Home = () => {
 
         {/* right side */}
         <div className="flexCenter home-right">
-          <div className="image-container">
+          <motion.div 
+          initial={{x:"7rem",opacity:0}}
+          animate={{x:0,opacity:1}}
+          transition={{
+            duration:2,
+            type:"spring"
+          }}
+
+          className="image-container">
             <img src="./hero-image.png" alt="houses" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

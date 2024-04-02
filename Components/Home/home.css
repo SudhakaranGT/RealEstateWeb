@@ -72,3 +72,33 @@
       height: 100%;
   }
   
+  /* mobile screens */
+@media  (max-width: 640px){
+  .home-container{
+    margin-top: 2rem;
+  }
+  .home-title>h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .image-container{
+    width: 95%;
+    height: 25rem;
+  }
+  .stats{
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: wrap;
+  }
+  .stat>:nth-child(1){
+    font-size: 1.5rem;
+  }
+  .stat>:nth-child(2)
+  {
+    font-size: 0.8rem;
+  }
+  
+  .home-right{
+    width: 100%;
+  }
+}
