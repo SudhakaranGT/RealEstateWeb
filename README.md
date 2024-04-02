@@ -61,5 +61,3 @@ This project is unlicensed fell free to contact [email](sudhakarangt@gmail.com)
 - Icons provided by [Material Design Icons](https://material.io/resources/icons/)
 
 ---
-
-Feel free to customize this README file according to your specific project requirements, technologies used, and acknowledgments. Ensure that it provides clear instructions for setting up and running the project and includes relevant information about the project's features and technologies.
