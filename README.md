@@ -23,7 +23,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine:
    
-   
+   https://github.com/SudhakaranGT/RealEstateWeb.git
    
 
 2. Install dependencies using npm or yarn:
