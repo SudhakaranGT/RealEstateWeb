@@ -25,8 +25,6 @@ To get started with this project, follow these steps:
    
    https://github.com/SudhakaranGT/RealEstateWeb.git
    
-
-2. Install dependencies using npm or yarn:
    
 
 2. Install dependencies using npm or yarn:
