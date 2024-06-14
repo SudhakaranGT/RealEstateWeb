@@ -10,7 +10,7 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import data from "../../src/utils/accordion.jsx";
-import "./Value.css";
+import "./value.css";
 
 const Value = () => {
   return (
@@ -49,7 +49,9 @@ const Value = () => {
 
               return (
                 <AccordionItem
-                  className={`accordionItem ${isExpanded ? "expanded" : "collapsed"}`}
+                  className={`accordionItem ${
+                    isExpanded ? "expanded" : "collapsed"
+                  }`}
                   uuid={i}
                   key={i}
                 >
